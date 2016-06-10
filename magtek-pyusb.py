@@ -99,4 +99,5 @@ info['exp_month'] = track[k+3:k+5]
 
 print "Bank card info: ", info
 
-    
+# bring the device back to the kernel
+device.attach_kernel_driver(0)
